@@ -1,0 +1,27 @@
+@use 'src/styles/vars';
+
+.reporesults-content {
+  margin-top: vars.$mainMargin;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  .ui.card:first-child {
+    margin-top: 10px !important;
+  }
+  .ui.card:last-child {
+    margin-bottom: 10px;
+  }
+
+  .reporesults-card {
+    display: inline-block;
+    width: 31%;
+    align-items: stretch;
+    margin:  10px 0;
+
+    img {
+      margin: 0;
+    }
+  }
+}

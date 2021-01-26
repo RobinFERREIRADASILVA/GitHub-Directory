@@ -1,0 +1,13 @@
+@use 'src/styles/vars';
+
+.message {
+  background-color: white;
+  margin-top: vars.$mainMargin;
+  padding: 0.7em;
+  border: 1px solid vars.$bodyBackground;
+  border-radius: vars.$mainBorderRadius;
+  
+  .message-content{
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,19 @@
+@use 'src/styles/vars';
+
+.app {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  background-color: vars.$appBackground;
+  border-radius: vars.$mainBorderRadius;
+  min-height: 100vh;
+
+  .container {
+    width: 760px;
+    margin: auto;
+  }
+}
+
+.app img {
+  max-height: 210px;
+}

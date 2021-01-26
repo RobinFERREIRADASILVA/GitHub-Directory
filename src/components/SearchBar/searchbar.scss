@@ -1,0 +1,27 @@
+@use 'src/styles/vars';
+
+.search-bar {
+
+  img {
+    display: block;
+    margin: auto;
+    max-width: 150px;
+    padding:  1em 0;
+  }
+  .search-bar-input {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0.7em;
+    border-radius: vars.$mainBorderRadius;
+
+    input {
+      display: block;
+      width: 100%;
+    }
+    
+  }
+  i::before {
+    padding-left: 20px;
+  }
+}
